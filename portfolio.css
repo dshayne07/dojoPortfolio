@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+#wrapper{
+    width:970px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#header{
+    background: #F1F1F1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F1F1F1, #FEFEFE); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F1F1F1, #FEFEFE); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F1F1F1, #FEFEFE); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F1F1F1, #FEFEFE); /* Standard syntax */
+    padding:7px;
+}
+#content{
+    background: #1B0B0F; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1B0B0F, #6F5964, #1B0B0F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1B0B0F, #6F5964, #1B0B0F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1B0B0F, #6F5964, #1B0B0F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1B0B0F, #6F5964, #1B0B0F); /* Standard syntax */
+    padding:20px 0px 20px 40px;
+    width:930px;
+    clear:both;
+}
+
+#photo{
+    width:400px;
+    border-style:solid;
+    border-color:#C0C0C0;
+    border-width:5px;
+    float: left;
+}
+
+#header h1, #header h2, #photo, .box, .bottomText, .bottomText p{
+    display:inline-block;
+}
+
+#header h1{
+    margin-left:20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#header h2{
+    margin-top:10px;
+    float:right;
+}
+
+.box{
+    background: linear-gradient(to right, #FFFFFF , #DACCD9);
+    padding:0px 0px 15px 15px;
+    width:270px;
+    height:570px;
+    float:left;
+    position:relative;
+}
+
+.box h3{
+    width:100%;
+    height:15px;
+    background: #B3B3B7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#B3B3B7, #8A8895, #B4B4B7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#B3B3B7, #8A8895, #B4B4B7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#B3B3B7, #8A8895, #B4B4B7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#B3B3B7, #8A8895, #B4B4B7); /* Standard syntax */
+    padding:10px 0px 15px 15px;
+    margin:0px 0px 0px -15px;
+    color:#FFFFFF;
+}
+
+.box .splash{
+    width:270px;
+}
+
+.box img{
+    width:40px;
+    padding-right:7px;
+}
+
+.box p{
+    margin-top:10px;
+    text-align: justify;
+    padding-right:15px;
+}
+
+#about{
+    width:455px;
+    height:240px;
+    margin-left:15px;
+}
+
+#family, #fiveEleven{
+    margin-left:20px;
+}
+
+.bottomText{
+    text-align:center;
+    width:100%;
+    
+}
+.bottomText p{
+    background-color:#407D61;
+    margin-top:3px;
+    padding:4px;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px grey;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+.bottom{
+    position: absolute;
+    bottom:10px;
+}
+
+.bottom p{
+    text-align:left;
+}
+
+#footer{
+    clear:both;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top:10px;
+}
+#footer img{
+    width:15px;
+}
+#footer p{
+    margin-bottom:10px;
+}
